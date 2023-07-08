@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    line-height: 1.7;
+}
+
+html,
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header-container {
+    position: relative;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0 !important;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+.header-container #myLinks {
+    display: none;
+}
+
+.topic {
+    font-size: 42px;
+}
+
+#myLinks a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    display: block;
+    cursor: pointer;
+}
+
+.header-container #myLinks a.login {
+    display: block;
+    background-image: linear-gradient(
+        25deg, rgb(23, 255, 211) 0%, rgb(211, 252, 113) 95%
+    );
+    color: #091337;
+    border-radius: 10px;
+}
+
+#myLinks a:hover,
+.header-container #myLinks a.login:hover {
+    background-image: linear-gradient(
+        65deg, rgb(23, 255, 211) 10%, rgb(211, 252, 113) 60%
+    );
+    border-radius: 10px;
+}
+
+.hero-text {
+    padding-top: 100px !important;
+    text-align: center;
+}
+
+a.get-started {
+    display: inline-block;
+    background-image: linear-gradient(
+        25deg, rgb(211, 252, 113) 0%, rgb(23, 255, 211) 90%
+    );
+    color: #091337;
+    border-radius: 10px;
+    padding: 15px 60px;
+}
+
+a.get-started:hover {
+    background-image: linear-gradient(
+        65deg, rgb(211, 252, 113) 10%, rgb(23, 255, 211) 60%
+    );
+    border-radius: 10px;
+}
+
+.asset h3 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.asset-container {
+    text-align: center;
+    margin-top: 40px !important;
+}
+
+.asset-grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+    row-gap: 60px;
+    column-gap: 0;
+    margin-top: 50px;
+}
+
+.asset-grid-item {
+    display: flex;
+    text-align: left;
+    column-gap: 30px;
+}
+
+/*.asset-grid-para {
+    fle
+}*/
+
+.asset-svg {
+    color: #fff;
+    background-color: rgb(25, 133, 222);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.choose-container,
+.ser-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    margin-top: 50px !important;
+}
+
+h3 {
+    font-size: 28px;
+    padding-top: 30px;
+}
+
+section {
+    padding-top: 50px !important;
+}
+
+.team, .plan {
+    text-align: center;
+} 
+
+.plan-list-container {
+    padding: 0 0 0;
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 20px;
+}
+
+.plan-list {
+    padding: 30px 20px;
+}
+
+.plan1 {
+    background-image: linear-gradient(59deg, rgb(213, 252, 113) 0%, rgb(100, 254, 171) 95%);
+}
+
+.plan2 {
+    background-image: linear-gradient(59deg, rgb(6, 255, 223) 0%, rgb(66, 219, 239) 95%);
+}
+
+.plan3 {
+    background-image: linear-gradient(59deg, rgb(11, 252, 224) 0%, rgb(197, 253, 120) 95%);
+}
+
+@media screen and (min-width: 760px) {
+  .header-container  #myLinks {
+        display: flex !important;
+        flex-direction: row;
+        margin-left: auto;
+    }
+
+    .header-container {
+      display: flex !important;
+      align-items: center;
+    }
+
+    .menu {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .header-container #myLinks {
+        gap: 10px !important;
+    }
+
+    .asset-grid-container {
+        grid-template-columns: auto auto !important;
+        grid-template-rows: auto auto !important;
+        column-gap: 20px !important;
+        row-gap: 30px !important;
+        margin-top: 60px !important;
+    }
+
+    .choose-container,
+    .ser-container {
+        grid-template-columns: 50% auto !important;
+        grid-template-rows: auto !important;
+        gap: 40px !important;
+    }
+
+    h3 {
+        font-size: 28px;
+        padding-top: 0 !important;
+    }
+
+    .ord-1 {
+        order: 1;
+    }
+
+    .ord-2 {
+        order: 2;
+    }
+
+    .plan-list-container {
+        grid-template-columns: repeat(3, auto) !important;
+        grid-column-gap: 20px;
+    }
+}
+
