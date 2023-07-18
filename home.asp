@@ -17,7 +17,6 @@
 </head>
 
 <body>
-
     <header class="header">
         <div class="sticky">
             <div class="container">
@@ -311,47 +310,6 @@
         <p class="section">A great vision requires a great team</p>
     </section>
 
-    <!--
-
-
-
-
-    -->
-
-    <section class="plan container">
-        <h2>Investment Plans</h2>
-        <p class="section">No matter the size of your pocket, there is always a Plan for you. Explore our investment plans today!</p>
-
-        <div class="plan-list-container">
-            <div class="card plan-list plan1">
-                <h4>Defi</h4>
-                <h2>$1000</h2>
-                <p class="plan-para">25% daily</p>
-                <p class="plan-para"></p>
-                <p class="plan-para"></p>
-                <p class="plan-para"></p>
-                <a class="invest" href="#">Invest</a>
-            </div>
-            <div class="card plan-list plan2">
-                <h4>Defi</h4>
-                <h2></h2>
-                <p class="plan-para"></p>
-                <p class="plan-para"></p>
-                <p class="plan-para"></p>
-                <p class="plan-para"></p>
-                <h3 class="plan-hh">Invest</h3>
-            </div>
-            <div class="card plan-list plan3">
-                <h4>Defi</h4>
-                <h2></h2>
-                <p class="plan-para"></p>
-                <p class="plan-para"></p>
-                <p class="plan-para"></p>
-                <p class="plan-para"></p>
-                <h3 class="plan-hh">Invest</h3>
-            </div>
-        </div>
-    </section>
 
     <script>
         function myFunction() {

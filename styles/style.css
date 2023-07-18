@@ -10,6 +10,7 @@ html,
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     scroll-behavior: smooth;
+    font-size: 18px;
 }
 
 .header-container {
@@ -30,7 +31,7 @@ body {
 }
 
 .topic {
-    font-size: 42px;
+    font-size: 2.5rem;
 }
 
 #myLinks a {
@@ -110,10 +111,6 @@ a.get-started:hover {
     text-align: left;
     column-gap: 30px;
 }
-
-/*.asset-grid-para {
-    fle
-}*/
 
 .asset-svg {
     color: #fff;
